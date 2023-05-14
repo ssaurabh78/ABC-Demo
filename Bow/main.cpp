@@ -14,7 +14,7 @@ public:
         this->imaginary = i;
     }
 
-    void print()
+    void print() // display the number
     {
         cout << "Complex Number: ";
         cout << real << " + i" << imaginary << endl;
@@ -23,7 +23,7 @@ public:
 
 int main()
 {
-    Complex<int, int> c1(10, 9);
+    Complex<int, int> c1(90, 7);
     c1.print();
     Complex<float, float> c2(10.5, 9.5);
     c2.print();
